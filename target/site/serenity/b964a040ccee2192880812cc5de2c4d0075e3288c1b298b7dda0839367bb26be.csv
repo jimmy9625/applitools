@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"users path","Search succesful user whit name and job  and search user whit id","FAILURE","2023-06-06T13:50:59.995688-05:00[America/Bogota]","0.0","0.96"
-"Authentication","Authentication Unsuccessful Bad Credentials","ERROR","2023-06-06T12:20:23.0394894-05:00[America/Bogota]","0.0","5.54"
+"users path","Create unsuccesful user whit name and job not send job","FAILURE","2023-06-06T14:23:26.481666-05:00[America/Bogota]","0.0","0.45"
+"users path","Search successful user with name and job, and search user with id","FAILURE","2023-06-06T14:23:27.0177735-05:00[America/Bogota]","0.0","0.98"
+"Authentication","Authentication Unsuccessful Bad Credentials","ERROR","2023-06-06T14:08:04.3272474-05:00[America/Bogota]","0.0","5.42"

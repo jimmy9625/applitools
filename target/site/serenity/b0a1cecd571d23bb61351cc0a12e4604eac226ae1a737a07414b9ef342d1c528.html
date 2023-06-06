@@ -104,7 +104,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [{"text":"Authentication","type":"feature","href":"b0a1cecd571d23bb61351cc0a12e4604eac226ae1a737a07414b9ef342d1c528.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e3 scenarios\u003c/span\u003e"]}];
+            var requirementsTree = [{"text":"Authentication","type":"feature","href":"b0a1cecd571d23bb61351cc0a12e4604eac226ae1a737a07414b9ef342d1c528.html","nodes":[],"selectable":false,"tags":["","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 scenarios\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -171,7 +171,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-06-2023 00:51</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-06-2023 14:07</span>
     <br style="clear:left"/>
 </div>
 
@@ -248,15 +248,6 @@
                                             <div id="toc">
                                                 <table class="table" id="toc-table">
                                                         <tr>
-                                                            <td style="width:99%;" class="toc-title"><a href="#36581e82604c2f163c1a15b1da57bb05030d513b3b495a3350398d83525f3eef">Authentication Unsuccessful - Bad Credentials</a>
-                                                                     (1 example)
-
-                                                            </td>
-                                                            <td style="width:1%;"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
-                                                               
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
                                                             <td style="width:99%;" class="toc-title"><a href="#b1f5de75c00f2afff8b6ae56f4a449c801b5ea5dd6b2a3589eb256a5f4c29063">Authentication Successful</a>
                                                                      (1 example)
 
@@ -279,42 +270,6 @@
                                             </div>
 
                                             <h3>Scenario details</h3>
-
-
-                                                <div class="scenario-docs card" id="36581e82604c2f163c1a15b1da57bb05030d513b3b495a3350398d83525f3eef">
-                                                    <div class="scenario-docs card-header success" style="min-height:1.5em;">
-                                                        <div>
-                                                            <span class="scenario-heading">
-                                                                Authentication Unsuccessful - Bad Credentials
-                                                            </span>
-                                                            <span class="scenario-result-icon">
-                                                                
-
-                                                                    <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i>
-                                                            </span>
-                                                        </div>
-                                                        <div class="scenario-report-badges">
-                                                                <span class="scenario-report-badge" style="float:right;"><a href='2067beae8ea98c3426c463cae2e6bebf488d8cfaae5d22d8e65717e485460783.html' class='badge more-details'>Details</a></span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="scenario-docs card-body">
-                                                            <p>Given The user opens the page</p>
-                                                            <p>When The user logs in with the following invalid credentials: {userName} and {password}</p>
-                                                            <p>Then the user sees mensage wrong credentials</p>
-                                                        <div class="examples">
-                                                            <p><div class='example-table-in-scenario'><table>
-<thead>
-<tr><th>userName</th><th>password</th></tr>
-</thead>
-<tbody>
-<tr><td>pepito@perez</td><td>0000</td></tr>
-</tbody>
-</table></div>
-</p>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
 
 
                                                 <div class="scenario-docs card" id="b1f5de75c00f2afff8b6ae56f4a449c801b5ea5dd6b2a3589eb256a5f4c29063">
@@ -402,10 +357,10 @@
                                             </div>
                                             <script>
 
-                                                var labels = ['67%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '33%', ' ', ' ', ' '];
+                                                var labels = ['50%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '50%', ' ', ' ', ' '];
                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                var series = [{meta: 'Passing tests (automated)', value: 2}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 1}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                 // as you saw in the previous example
@@ -446,8 +401,8 @@
                                                                         <a href="86c11d7ccd97513d2ed8d4639c7d073a2f4ba4756121ebc50f88b39dccc75f82.html"><i
                                                                                 class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                <td class="automated-stats">2</td>
-                                                <td class="automated-stats">67%</td>
+                                                <td class="automated-stats">1</td>
+                                                <td class="automated-stats">50%</td>
                                             </tr>
                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -489,7 +444,7 @@
                                                                                 class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
                                                                     </td>
                                                 <td class="automated-stats">1</td>
-                                                <td class="automated-stats">33%</td>
+                                                <td class="automated-stats">50%</td>
                                             <tr>
                                                                 <td class="aggregate-result-count indented-error-category">
                                                                     <i
@@ -500,7 +455,7 @@
                                             </tr>
                                             <tr class="summary-stats">
                                                 <td class="aggregate-result-count">Total</td>
-                                                <td class="automated-stats">3</td>
+                                                <td class="automated-stats">2</td>
                                                 <td class="automated-stats"></td>
                                             </tr>
                                             </tbody>
@@ -523,10 +478,10 @@
                                                     <tbody>
                                                     <tr>
                                                         <td>12s</td>
-                                                        <td> 11h  28m 26s</td>
-                                                        <td>0ms</td>
                                                         <td>7s</td>
-                                                        <td>4s</td>
+                                                        <td>5s</td>
+                                                        <td>6s</td>
+                                                        <td>6s</td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -551,25 +506,12 @@
                                                 <tbody>
                                                 <tr class="scenario-result SUCCESS">
                                                     <td>
-                                                            <a href="2067beae8ea98c3426c463cae2e6bebf488d8cfaae5d22d8e65717e485460783.html">Authentication Unsuccessful - Bad Credentials</a>
-                                                               (1 example)
-                                                    </td>
-                                                    <td>3</td>
-                                                    <td>00:51:56</td>
-                                                    <td> </td>
-                                                    <td>
-                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
-                                                                style="display:none">SUCCESS</span>
-                                                    </td>
-                                                </tr>
-                                                <tr class="scenario-result SUCCESS">
-                                                    <td>
                                                             <a href="5040486b5d12d04a87aab07b7410268e6e4af141d50af461883480df32d3e725.html">Authentication Successful</a>
                                                                (1 example)
                                                     </td>
                                                     <td>3</td>
-                                                    <td>12:20:14</td>
-                                                    <td>00:07</td>
+                                                    <td>14:07:57</td>
+                                                    <td>00:06</td>
                                                     <td>
                                                             <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
                                                                 style="display:none">SUCCESS</span>
@@ -581,7 +523,7 @@
                                                                (1 example)
                                                     </td>
                                                     <td>3</td>
-                                                    <td>12:20:23</td>
+                                                    <td>14:08:04</td>
                                                     <td>00:05</td>
                                                     <td>
                                                             <i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i> <span
