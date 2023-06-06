@@ -236,3 +236,10 @@ gradle-app.setting
 # End of https://www.toptal.com/developers/gitignore/api/gradle,intellij,java,eclipse
 # Ignore Gradle build output directory
 build
+
+
+/target
+/.idea
+/logs
+/logs/*
+/history
