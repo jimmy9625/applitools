@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Authentication","Authentication Unsuccessful - Bad Credentials","SUCCESS","2023-06-06T00:51:56.8437518-05:00[America/Bogota]","0.0","0.0"
+"Authentication","Authentication Successful","SUCCESS","2023-06-06T12:07:45.6716315-05:00[America/Bogota]","0.0","7.18"
+"Authentication","Authentication Unsuccessful Bad Credentials","ERROR","2023-06-06T12:07:54.1794527-05:00[America/Bogota]","0.0","5.63"
