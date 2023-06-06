@@ -1,4 +1,4 @@
-package com.co.applitools.tasks;
+package com.co.applitools.tasks.front;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;

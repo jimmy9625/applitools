@@ -13,6 +13,6 @@ Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20230522134052, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6776, moz:profile: C:\Users\jaime\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: fb09513a-bc27-4d92-ad8c-5909e15d8aed
 *** Element info: {Using=xpath, value=//*[@id='random_id_5']}&#13;
-com.co.applitools.stepdefinition.AuthenticationStepsDefinition.theUserSeesMensageWrongCredentials(AuthenticationStepsDefinition.java:61)&#13;
+com.co.applitools.stepdefinition.front.AuthenticationStepsDefinition.theUserSeesMensageWrongCredentials(AuthenticationStepsDefinition.java:61)&#13;
 ✽.the user sees mensage wrong credentials(src/test/resources/features/front/authentication.feature:16)&#13;
 </system-err></testcase></testsuite>

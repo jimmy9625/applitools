@@ -1,8 +1,8 @@
-package com.co.applitools.stepdefinition;
+package com.co.applitools.stepdefinition.front;
 
 import com.co.applitools.questions.front.GetMessage;
 import com.co.applitools.questions.front.TheName;
-import com.co.applitools.tasks.Login;
+import com.co.applitools.tasks.front.Login;
 import com.co.applitools.utils.Constants;
 import com.co.applitools.utils.drivers.OwnWebDriver;
 import cucumber.api.java.Before;

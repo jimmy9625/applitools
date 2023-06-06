@@ -1,4 +1,4 @@
-package com.co.applitools.runners;
+package com.co.applitools.runners.api;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.SnippetType;
@@ -7,9 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-        features = "src/test/resources/features/front/dashboard.feature",
-        glue = "com.co.applitools.stepdefinition",
+        features = "src/test/resources/features/api/users.feature",
+        glue = "com.co.applitools.stepdefinition.api",
         snippets = SnippetType.CAMELCASE
 )
-public class Dashboard {
+
+public class Users {
 }

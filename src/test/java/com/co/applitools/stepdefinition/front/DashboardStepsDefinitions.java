@@ -1,4 +1,4 @@
-package com.co.applitools.stepdefinition;
+package com.co.applitools.stepdefinition.front;
 
 import com.co.applitools.questions.front.GetTotalBance;
 import com.co.applitools.questions.front.GetTotalCreditAvailable;

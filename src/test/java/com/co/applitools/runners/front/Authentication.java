@@ -1,4 +1,4 @@
-package com.co.applitools.runners;
+package com.co.applitools.runners.front;
 
 
 
@@ -10,7 +10,7 @@ import cucumber.api.CucumberOptions;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = "src/test/resources/features/front/authentication.feature",
-        glue = "com.co.applitools.stepdefinition",
+        glue = "com.co.applitools.stepdefinition.front",
         snippets = SnippetType.CAMELCASE)
 public class Authentication {
 }
